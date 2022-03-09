@@ -1,1 +1,12 @@
-// TODO
+.postInfo {
+  color: var(--info);
+  display: flex;
+  gap: 2.6rem;
+  font-size: 1.4rem;
+
+  .infoTag {
+    svg {
+      margin-right: 0.8rem;
+    }
+  }
+}

@@ -1,1 +1,62 @@
-// TODO
+.container {
+  position: relative;
+  max-width: 72rem;
+  width: 100%;
+  margin: 0 auto;
+
+  header {
+    margin: 4rem 0;
+  }
+
+  .banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: var(--banner);
+    height: 40rem;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .articleContainer {
+    margin: 8rem 0;
+
+    h1 {
+      color: var(--heading);
+      font-size: 4.8rem;
+      margin-bottom: 2.4rem;
+    }
+
+    article {
+      h2 {
+        color: var(--heading);
+        font-size: 3.6rem;
+        margin-top: 6.4rem;
+      }
+
+      .content {
+        margin-top: 5rem;
+
+        a {
+          color: var(--highlight)
+        }
+
+        p, ul {
+          margin: 1.5rem 0;
+        }
+      
+        ul, ol {
+          padding-left: 1.5rem;
+      
+          li {
+            margin: 0.5rem 2rem;
+          }
+        }
+      }
+    }
+  }
+}
